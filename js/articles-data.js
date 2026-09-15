@@ -12,6 +12,15 @@ window.ARTICLES = [
     featured: true
   },
   {
+    slug: "gpt-6-astra-and-the-law",
+    title: "GPT-6 Astra and the Law",
+    category: "Intellectual Property Law",
+    excerpt: "OpenAI's newest flagship model launched with law firms as a headline use case. What it actually means for intellectual property and the future of the legal profession under English law.",
+    date: "2026-09-15",
+    readTime: "6 min read",
+    featured: false
+  },
+  {
     slug: "bosman-ruling-at-30",
     title: "The Bosman Ruling at 30: How One Case Changed Football Forever",
     category: "Sports Law",
@@ -27,15 +36,6 @@ window.ARTICLES = [
     excerpt: "When an athlete tests positive, the legal machinery that follows is complex, contested and often misunderstood. We break down how anti-doping tribunals actually work — and whether they deliver justice.",
     date: "2026-08-15",
     readTime: "10 min read",
-    featured: false
-  },
-  {
-    slug: "gpt-6-astra-and-the-law",
-    title: "GPT-6 Astra and the Law",
-    category: "Intellectual Property Law",
-    excerpt: "OpenAI's newest flagship model launched with law firms as a headline use case. What it actually means for intellectual property and the future of the legal profession under English law.",
-    date: "2026-09-15",
-    readTime: "6 min read",
     featured: false
   }
 ];
