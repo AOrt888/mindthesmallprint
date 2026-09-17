@@ -26,11 +26,14 @@ function initArticleFilters() {
     var visibleCount = 0;
 
     cards.forEach(function (card) {
-      var category = card.getAttribute('data-category');
+      // Cards can belong to more than one category, stored comma-separated
+      // (e.g. "Sports Law,Intellectual Property Law"), so a card shows up
+      // whenever any of its categories match the active filter pill.
+      var categories = (card.getAttribute('data-category') || '').split(',').map(function (c) { return c.trim(); });
       var title = card.getAttribute('data-title') || '';
       var excerpt = card.getAttribute('data-excerpt') || '';
 
-      var matchesCategory = activeCategory === 'All' || category === activeCategory;
+      var matchesCategory = activeCategory === 'All' || categories.indexOf(activeCategory) !== -1;
       var matchesQuery = !query || title.indexOf(query) !== -1 || excerpt.indexOf(query) !== -1;
 
       var visible = matchesCategory && matchesQuery;

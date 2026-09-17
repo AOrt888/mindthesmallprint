@@ -137,6 +137,7 @@ p { margin: 0 0 1em 0; }
   color: var(--blue-dark);
 }
 
+.card-badges, .hero-badges { display: flex; flex-wrap: wrap; gap: 6px; }
 .category-sports  { background: #2f6fcb; }
 .category-ip { background: #7451a8; }
 .category-media { background: #2f8a9c; }
