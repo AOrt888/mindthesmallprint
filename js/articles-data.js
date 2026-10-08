@@ -1,12 +1,21 @@
 // Article metadata used to keep card content in one place for editing.
 // (The homepage/articles page cards are still static HTML for reliability
-// and SEO — this file exists so future edits only need to happen once.)
+// and SEO. This file exists so future edits only need to happen once.)
 // `categories` is an array because an article can sit under more than one
 // category badge/filter (e.g. the piracy article is both Sports Law and
-// Intellectual Property Law) — the article page and card markup then
+// Intellectual Property Law). The article page and card markup then
 // render one badge per entry, and articles.html's data-category attribute
 // lists them comma-separated for the filter logic in js/main.js.
 window.ARTICLES = [
+  {
+    slug: "what-next-for-manchester-city",
+    title: "What Next for Manchester City?",
+    categories: ["Sports Law"],
+    excerpt: "An independent Commission has found Manchester City guilty of serious breaches of the Premier League's financial rules across nine seasons. The findings are public; the sanction and the appeal are not.",
+    date: "2026-09-30",
+    readTime: "9 min read",
+    featured: false
+  },
   {
     slug: "tackling-premier-league-piracy",
     title: "Tackling Premier League Piracy",
@@ -36,20 +45,11 @@ window.ARTICLES = [
   },
   {
     slug: "bosman-ruling-at-30",
-    title: "The Bosman Ruling at 30: How One Case Changed Football Forever",
+    title: "The Bosman Ruling at 30",
     categories: ["Sports Law"],
-    excerpt: "In 1995, a Belgian midfielder's contract dispute reshaped the entire landscape of professional football. Three decades on, we examine the ruling's lasting legacy — and the questions it still hasn't answered.",
-    date: "2026-08-20",
-    readTime: "8 min read",
-    featured: false
-  },
-  {
-    slug: "doping-bans-and-due-process",
-    title: "Doping, Bans and Due Process in Elite Sport",
-    categories: ["Sports Law"],
-    excerpt: "When an athlete tests positive, the legal machinery that follows is complex, contested and often misunderstood. We break down how anti-doping tribunals actually work — and whether they deliver justice.",
-    date: "2026-08-15",
-    readTime: "10 min read",
+    excerpt: "In 1995, a Belgian midfielder's contract dispute reshaped the entire landscape of professional football. Three decades on, we examine the ruling's lasting legacy, from Brexit to the 2024 Diarra ruling dubbed Bosman 2.0.",
+    date: "2026-07-01",
+    readTime: "6 min read",
     featured: false
   }
 ];

@@ -1,4 +1,4 @@
-// Mind The Small Print — shared site behaviour
+// Mind The Small Print: shared site behaviour
 // Vanilla JS, no build step, no dependencies.
 
 document.addEventListener('DOMContentLoaded', function () {
