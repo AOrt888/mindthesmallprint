@@ -11,7 +11,7 @@ window.ARTICLES = [
     slug: "what-next-for-manchester-city",
     title: "What Next for Manchester City?",
     categories: ["Sports Law"],
-    excerpt: "An independent Commission has found Manchester City guilty of serious breaches of the Premier League's financial rules across nine seasons. The findings are public; the sanction and the appeal are not.",
+    excerpt: "An independent Commission has found Manchester City guilty of serious breaches of the Premier League's financial rules across nine seasons. So, what next?",
     date: "2026-09-30",
     readTime: "9 min read",
     featured: false
@@ -29,7 +29,7 @@ window.ARTICLES = [
     slug: "gpt-6-astra-and-the-law",
     title: "GPT-6 Astra and the Law",
     categories: ["Intellectual Property Law"],
-    excerpt: "OpenAI's newest flagship model launched with law firms as a headline use case. What it actually means for intellectual property and the future of the legal profession under English law.",
+    excerpt: "OpenAI's newest flagship model launched with law firms as a headline use case. What does this mean for intellectual property and the future of the legal profession?",
     date: "2026-09-15",
     readTime: "6 min read",
     featured: false
@@ -38,7 +38,7 @@ window.ARTICLES = [
     slug: "easygroup-v-easy-life-trade-mark-dispute",
     title: "Easy Life, Hard Lessons: What the easyGroup Trade Mark Dispute Teaches About Brand Protection",
     categories: ["Intellectual Property Law"],
-    excerpt: "A Leicester indie band spent six years building a following under a name easyGroup decided it owned. A year on from their enforced rebrand to Hard Life, what the case shows about the Trade Marks Act 1994.",
+    excerpt: "A Leicester indie band spent six years building a following under a name easyGroup decided it owned. A year on from their enforced rebrand to Hard Life, here's what the case shows about UK Trade Mark law.",
     date: "2025-06-11",
     readTime: "8 min read",
     featured: false
@@ -47,7 +47,7 @@ window.ARTICLES = [
     slug: "bosman-ruling-at-30",
     title: "The Bosman Ruling at 30",
     categories: ["Sports Law"],
-    excerpt: "In 1995, a Belgian midfielder's contract dispute reshaped the entire landscape of professional football. Three decades on, we examine the ruling's lasting legacy, from Brexit to the 2024 Diarra ruling dubbed Bosman 2.0.",
+    excerpt: "In 1995, a Belgian midfielder's contract dispute reshaped the entire landscape of professional football. Three decades on, I examine the ruling's legacy, from Brexit to the 2024 Diarra ruling dubbed Bosman 2.0.",
     date: "2026-07-01",
     readTime: "6 min read",
     featured: false

@@ -68,7 +68,7 @@ one of these classes on the badge span:
 | Sports Law | `category-sports` |
 | Intellectual Property Law | `category-ip` |
 | Media & Entertainment Law | `category-media` |
-| Criminal Law | `category-criminal` |
+| Commercial Law | `category-commercial` |
 | The Wider Legal Landscape | `category-wider` |
 
 `js/articles-data.js` isn't required for the site to work, it's just a
