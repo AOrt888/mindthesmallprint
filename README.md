@@ -23,7 +23,8 @@ articles/                 One HTML file per article
 css/style.css              All styling: colours, fonts and layout live here
 js/main.js                  Mobile-friendly filter/search behaviour for the Articles page
 js/articles-data.js         A list of your articles' metadata (kept here so it's in one place)
-assets/                     Your logo files + favicon
+assets/                     Article photos, headshot, favicon and share image
+assets/fonts/               The site's three fonts (Fraunces, Space Grotesk, JetBrains Mono), self-hosted
 404.html                    Shown if someone follows a broken link
 robots.txt, sitemap.xml     Small SEO helpers for search engines
 ```
