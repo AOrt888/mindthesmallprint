@@ -8,6 +8,15 @@
 // lists them comma-separated for the filter logic in js/main.js.
 window.ARTICLES = [
   {
+    slug: "premier-league-directors-indemnity",
+    title: "Who Pays If the Premier League Is Sued?",
+    categories: ["Commercial Law", "Sports Law"],
+    excerpt: "Premier League clubs have voted to cover their directors' legal bills if Manchester City's sponsors sue them. Is the indemnity needed, and would the sponsors' threatened claims actually succeed?",
+    date: "2026-11-19",
+    readTime: "6 min read",
+    featured: false
+  },
+  {
     slug: "what-next-for-manchester-city",
     title: "What Next for Manchester City?",
     categories: ["Sports Law"],
